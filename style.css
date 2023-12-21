@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+#menusuperior{
+    background-image: url(IMAGENS/fundo.svg);
+    color: white;
+    height: 560px;
+}
+
+#logo{
+    margin: 50px;
+}
+
+#titulo-menusuperior{
+    margin-left: 172px;
+    margin-top: 71px;
+    font-size: 40px;
+    line-height: 51.4px;
+
+}
+
+#texto-menusuperior{
+    margin-left: 172px;
+    margin-top: 32px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#menuinformacional{
+    color:#122235;
+    background-color: #EAECE5;
+    height: 170px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icone{
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 55px;
+    padding: 20px;
+}
+
+.textoinformativo{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+#menuvideo{
+    margin-left: 174px;
+    margin-top: 74px;
+    padding-bottom: 74px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding-right: 64px;
+
+}
+
+#titulo-video{
+    color: #247BA0;
+    margin-top: 10px;
+    line-height: 48px;
+}
+
+#texto-video{
+    color: #383838;
+    line-height: 24px;
+}
+
+#carrossel{
+    background-color: #247BA0;
+    padding: 50px;
+    height: 300px;
+}
+
+#titulo-carrossel{
+    color:white;
+    text-align: center;
+    font-size: 32px;
+}
+
+#div-cards{
+    margin-top: 65px;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.cards{
+    margin-left: 170px;
+    padding: 10px;
+}
+
+#Leonardo{
+    margin-left: 25px;
+}
+
+#Samantha{
+    display: none;
+    margin-left: 25px;
+}
+
+#seta-esquerda{
+    display: none;
+    margin-top: 70px;
+}
+
+#seta-direita{
+    margin-right: 50px;
+    margin-top: 55px;
+}
+
+.setas{
+    cursor: pointer;
+}
+
+.setas:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+#formulario{
+    text-align: center; 
+    margin: 25px;
+}
+
+#titulo-formulario{
+    margin: 22px;
+    font-size: 32px;
+    color: #383838;
+}
+
+input{
+    height: 53px;
+    width: 400px;
+    margin: 20px;
+    padding-left: 15px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #EAECE5;
+}
+
+button{
+    background-color: #247BA0;
+    color: #EAECE5;
+    height: 53px;
+    width: 330px;
+    margin: 30px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #3499c4;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0 15px 20px #44575f6e;
+    transition-duration: 0.5s;
+}
